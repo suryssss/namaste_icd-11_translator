@@ -15,8 +15,9 @@ The frontend runs on localhost:3000, and the backend runs on localhost:5000.
 Clone both the frontend and backend repositories:
 
 # Clone the frontend (this repo)
-'''git clone <frontend_repo_url>
-cd <frontend_repo_folder>'''
+```bash
+git clone <frontend_repo_url>
+cd <frontend_repo_folder>
 
 # Clone the backend (Python repo)
 git clone <backend_repo_url>
@@ -26,13 +27,14 @@ cd <backend_repo_folder>
 Frontend (React/Next.js)
 cd <frontend_repo_folder>
 npm install
+```
 
 Backend (Python)
 
 Make sure you have Python 3.9+ installed. Then, create a virtual environment and install requirements:
 
 cd <backend_repo_folder>
-
+```
 # Create virtual environment
 python -m venv venv
 
@@ -49,13 +51,16 @@ pip install -r requirements.txt
 Start Backend
 cd <backend_repo_folder>
 python app.py
+```
 
 
 This will start the backend server on http://localhost:5000
 
 Start Frontend
+```
 cd <frontend_repo_folder>
 npm start
+```
 
 
 This will start the frontend on http://localhost:3000
