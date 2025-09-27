@@ -24,7 +24,7 @@ git clone <backend_repo_url>
 cd <backend_repo_folder>
 
 2. Set Up Dependencies
-Frontend (React/Next.js)
+Frontend (Next.js)
 cd <frontend_repo_folder>
 npm install
 ```
