@@ -32,9 +32,8 @@ npm install
 Backend (Python)
 
 Make sure you have Python 3.9+ installed. Then, create a virtual environment and install requirements:
-
-cd <backend_repo_folder>
 ```
+cd <backend_repo_folder>
 # Create virtual environment
 python -m venv venv
 
