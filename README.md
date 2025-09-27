@@ -15,8 +15,8 @@ The frontend runs on localhost:3000, and the backend runs on localhost:5000.
 Clone both the frontend and backend repositories:
 
 # Clone the frontend (this repo)
-git clone <frontend_repo_url>
-cd <frontend_repo_folder>
+'''git clone <frontend_repo_url>
+cd <frontend_repo_folder>'''
 
 # Clone the backend (Python repo)
 git clone <backend_repo_url>
