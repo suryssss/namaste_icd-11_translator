@@ -76,6 +76,32 @@ Enter a keyword in the search input field (e.g., arthritis).
 
 The backend processes the request and returns matching NAMC–ICD mappings with similarity scores.
 
+Example API request:
+```GET http://127.0.0.1:5000/search?term=arthritis&limit=5```
+
+Example response:
+```{
+  "query": "arthritis",
+  "count": 2,
+  "results": [
+    {
+      "NAMC_ID": "12",
+      "NAMC_term": "sandhivata",
+      "ICD_Code": "M19",
+      "ICD_Title": "Other arthritis",
+      "Similarity": 0.89
+    },
+    {
+      "NAMC_ID": "34",
+      "NAMC_term": "amavata",
+      "ICD_Code": "M06",
+      "ICD_Title": "Other rheumatoid arthritis",
+      "Similarity": 0.92
+    }
+  ]
+}
+```
+
 📂 Tech Stack
 
 Frontend:Next.js
