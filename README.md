@@ -1,10 +1,10 @@
 <h1>NAMASTE – ICD Code Translator</h1>
 
-#A prototype web application to translate between AYUSH NAMASTE codes and ICD codes.
+<h3>A prototype web application to translate between AYUSH NAMASTE codes and ICD codes.</h3>
 
-#Project Setup Guide
+<h3>Project Setup Guide</h3>
 
-#This project consists of two parts:
+This project consists of two parts:
 
 Frontend (available in this repository)
 
