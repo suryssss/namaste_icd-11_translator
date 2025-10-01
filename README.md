@@ -1,6 +1,10 @@
-Project Setup Guide
+#NAMASTE – ICD Code Translator
 
-This project consists of two parts:
+#A prototype web application to translate between AYUSH NAMASTE codes and ICD codes.
+
+#Project Setup Guide
+
+#This project consists of two parts:
 
 Frontend (available in this repository)
 
@@ -66,15 +70,15 @@ This will start the frontend on http://localhost:3000
 
 4. Usage
 
-Open the frontend in your browser: http://localhost:3000
+Open the frontend in your browser → http://localhost:3000
 
-Enter the name of the  input field.
+Enter a keyword in the search input field (e.g., arthritis).
 
-The backend (running on localhost:5000) will process it and return the output code, which is displayed on the frontend.
+The backend processes the request and returns matching NAMC–ICD mappings with similarity scores.
 
 📂 Tech Stack
 
-Frontend:  Next.js
+Frontend:Next.js
 
 Backend: Python (Flask and Pandas)
 
