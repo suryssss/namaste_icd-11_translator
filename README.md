@@ -1,4 +1,4 @@
-#NAMASTE – ICD Code Translator
+<h1>NAMASTE – ICD Code Translator</h1>
 
 #A prototype web application to translate between AYUSH NAMASTE codes and ICD codes.
 
